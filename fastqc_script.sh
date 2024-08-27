@@ -12,7 +12,7 @@
   mkdir -p "$OUTPUT_DIR"
 
 
-  #Run fastqc on all teh files in the input directory
+  #Run fastqc on all the files in the input directory
   for file in "$INPUT_DIR"/*.fastq.gz; do
       if [ -f "$file" ]; then
          echo "Running fastqc on $file"
